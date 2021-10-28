@@ -124,7 +124,7 @@ box-shadow:2px 2px 5px #d3d3d3;
     font-weight:900;
     opacity:0.2;
     position:absolute;
-    left:15px; bottom:0px;
+    left:15px; bottom:5px;
    color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-fill-color: var(--color1);
