@@ -1,4 +1,4 @@
-tsuki {
+.tsuki {
  position: relative; 
   margin: 25px auto;
   width: 450px;
@@ -6,11 +6,11 @@ tsuki {
   background:#f2f2f2;
   border:1px solid #d3d3d3;
   border-radius:10px;
+    box-sizing:border-box;
   box-shadow:2px 2px 5px #e3e3e3;
   padding:50px;
   font-family: nunito;
-  color:#323232;
-   box-sizing:border-box;
+  color:#d2d2d2;
 }
 
 
