@@ -69,6 +69,7 @@ z-index: 2;
 
 .tsuki-bottom {
   border-bottom:5px solid var(--color1);
+ position:absolute;
   margin: -6px;
   width: 200px;
   float: right;
