@@ -1,0 +1,133 @@
+.tsuki {
+ position: relative; 
+  margin: 25px auto;
+  width: 450px;
+  min-height: 300px;
+  background:#f2f2f2;
+  border:1px solid #d3d3d3;
+  border-radius:10px;
+    box-sizing:border-box;
+  box-shadow:2px 2px 5px #e3e3e3;
+  padding:50px;
+  font-family: nunito;
+  color:#535353;
+}
+
+
+.tsuki-back {
+  height: 120px;
+  width: 120px;
+  right: -30px;
+  top: 13px;
+  background: -webkit-linear-gradient(var(--color1), var(--color2));
+  border-radius: 100%;
+  rotate(-5deg);float:left;position:relative;margin-top:-20px;margin-left:-10px;
+
+}
+
+
+
+.tsuki-icon{
+  width:100px;
+  height:100px;
+ top: 8px;
+  left: -8px;
+  position: relative;
+  border: solid 2px #f2f2f2;
+  border-radius: 100%;
+}
+
+.tsuki-body {
+  text-align:justify;
+  font-size:14px;
+  line-height:22px;
+  font-weight:500;
+  
+}
+
+.tsuki-body b {
+   color: var(--color1);
+  font-weight:900;
+  border-bottom: 2px dashed var(--color2);
+  font-size: 16px;
+}
+
+.tsuki-body i {
+  font-weight:800;
+  border-bottom:2px dotted var(--color1);
+}
+
+.tsuki-body u {
+  border-bottom:2px solid var(--color2);
+  font-weight:900;
+  text-decoration: none;
+}
+
+.tsuki-bottom {
+  border-bottom:5px solid var(--color1);
+  margin: -6px;
+  width: 200px;
+  float: right;
+  opacity: 0.3;
+}
+
+
+.tsuki-tag {
+  display:flex;
+  position:absolute;
+  bottom: 20px;
+  right: 50px;
+  height:25px;
+  width:274px;
+  text-align: right;
+  font-weight:400;
+  flex-wrap:wrap;
+  line-height:15px;
+  font-size:15px;
+}
+.tsuki-tag time {
+  display:block;
+  width:100%;
+  font-size:15px;
+}
+
+
+.tsuki-tag strong {
+  font-weight:700;
+  color: var(--color1);
+  text-transform:uppercase;
+  font-size:18px;
+  font-style: italic;
+  
+}
+
+.tsuki-tag time b {
+  display:inline-block;
+  font-weight:900;
+  font-size:24px;
+  line-height:22px;
+ color: var(--color2);
+  text-transform:uppercase;  
+   margin-right:2px;
+}
+
+.tsuki-tag a {
+  font-weight:600;
+  line-height:15px;
+  color: #535353;
+  text-transform:uppercase;
+  text-decoration: none;
+}
+  .tsuki-fi {
+     font-size:150px;
+    line-height:150px;
+    font-weight:700;
+    opacity:0.2;
+    position:absolute;
+    left:15px; bottom:5px;
+   color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-fill-color: var(--color1);
+    transform: rotate(-25deg); 
+   
+  }
