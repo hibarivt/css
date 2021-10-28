@@ -18,7 +18,7 @@
   height: 120px;
   width: 120px;
   right: -30px;
-  top: -5px;
+  top: -15px;
   background: -webkit-linear-gradient(var(--color1), var(--color2));
   border-radius: 100%;
   rotate(-5deg);float:left;position:relative;margin-top:-20px;margin-left:-10px;
@@ -30,7 +30,7 @@ box-shadow:2px 2px 5px #d3d3d3;
 .tsuki-icon{
   width:100px;
   height:100px;
- top: 12px;
+ top: 8px;
   left: -8px;
   position: relative;
   border: solid 2px #f2f2f2;
